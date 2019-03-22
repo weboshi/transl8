@@ -1,0 +1,36 @@
+.mypins-form {
+        font-family: 'Poppins', sans-serif;
+        width: 70%;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+        padding-top: 5px;
+        margin: auto;
+        margin-bottom: 20px;
+    
+}
+
+.panel-heading {
+        background-color: rgb(35, 219, 133) !important;
+        border-color: rgb(35, 219, 133) !important;
+}
+
+.panel-primary {
+        border-color: rgb(35, 219, 133) !important;
+}
+
+.update-button {
+        background-color: #FF6699 !important;
+        color: white !important;
+        border-color: transparent !important;
+}
+
+.update-button:hover {
+        background-color: rgb(221, 76, 125) !important;
+}
+
+.pins-panel {
+        border-bottom: 1px black solid;
+        padding-bottom: 10px;
+}

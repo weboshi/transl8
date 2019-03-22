@@ -1,0 +1,23 @@
+.viewlisting-label {
+    text-align: center;
+}
+
+.viewlisting-panel {
+    margin-top: 50px;
+    width: 70%;
+    border: .5px solid rgb(204, 204, 204);
+    min-height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.viewlisting-information {
+
+}
+
+.viewlisting-component {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}

@@ -1,0 +1,54 @@
+.jobs-container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.jobs-component {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.jobs-panel {
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.jobs-label { 
+    text-align: center;
+    border-bottom: 1px rgb(97, 97, 97) solid;
+}
+
+.jobs-card {
+    margin: 15px;
+    width: 18em;
+}
+
+.layout {
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 86, 194);
+    border-radius: 5px;
+}
+
+.bookmark {
+    cursor: pointer;
+    margin-right: 10px;
+    color: grey;
+
+}
+
+.bookmark:hover {
+    color: rgb(224, 247, 16);
+}
+
+.format-date {
+    font-size: .7em;
+    margin-right: 10px;
+}

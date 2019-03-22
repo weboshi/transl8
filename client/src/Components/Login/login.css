@@ -1,0 +1,14 @@
+
+
+.login-header {
+    display: block;
+}
+
+.errorMsg {
+    color: #cc0000;
+    margin-bottom: 12px;
+  }
+
+  .login {
+      width: 500px;
+  }

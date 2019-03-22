@@ -1,0 +1,21 @@
+.categories-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+
+.categories-label {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+    width: auto;
+}
