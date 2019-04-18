@@ -12,7 +12,8 @@
     padding: 10px;
 }
 
-.viewlisting-information {
+.viewlisting-container {
+    width: 100%;
 
 }
 
@@ -20,4 +21,5 @@
     display: flex;
     justify-content: center;
     min-height: 100vh;
+    text-align: center;
 }

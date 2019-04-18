@@ -30,10 +30,10 @@ class ProfileComponent extends Component {
         this.handleChange = this.handleChange.bind(this)
         this.updateProfile = this.updateProfile.bind(this)
         this.onImageDrop = this.onImageDrop.bind(this)
+        this.initializeProfile = this.initializeProfile.bind(this)
     }
 
-    componentDidMount(){
-        console.log(this.props.user.username)
+    initializeProfile() {
         this.setState({
             username: this.props.user.username,
             email: this.props.user.email,
@@ -41,7 +41,6 @@ class ProfileComponent extends Component {
             lastname: this.props.user.lastname,
             description: this.props.user.description
         }, () => console.log(this.state.email))
-        
     }
 
     onImageDrop(files) {
@@ -121,6 +120,7 @@ class ProfileComponent extends Component {
     }
 
     render(){
+        this.initializeProfile()
         return(
             <div className='profile'>
                 {!this.state.edit ? 
